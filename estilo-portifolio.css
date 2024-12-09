@@ -1,0 +1,65 @@
+body {  font-family: Arial, sans-serif; 
+        margin: 0; 
+        padding: 0; 
+        background-color: rgb(241, 236, 236); 
+    }
+header {    background-color: #5a5959; 
+            color: white; 
+            padding: 1em; 
+            text-align: center; 
+        } 
+nav {   display: flex; 
+        justify-content: center; 
+        background-color: #444; 
+    } 
+nav a { color: white; 
+        padding: 1em; 
+        text-decoration: none; 
+    } 
+nav a:hover { background-color: #555; 
+} 
+.dados { padding: 20px; 
+} 
+
+.contato {  background-color: white; 
+            margin: 5px 0; 
+            padding: 10px; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
+
+
+footer {    background-color: #333; 
+            color: white; 
+            text-align: center; 
+            padding: 1em;
+         }
+
+form label { display: block; 
+             margin-top: 5px;
+             } 
+form input, form textarea { width: 40%; 
+                            padding: 5px; 
+                            margin-top: 5px; 
+                            box-sizing: border-box;
+                         } 
+form input[type="submit"] { background-color: #333; 
+                            color: white; 
+                            border: none; cursor: pointer;
+                         } 
+form input[type="submit"]:hover { background-color: #555;
+ } 
+.email-contato { margin-top: 20px; 
+} 
+.email-contato a {   display: block; 
+                    color: #333; 
+                    text-decoration: none;
+                    margin: 5px 0;
+                 }
+.link-projetos a {   display: block; 
+                    color: #333; 
+                    text-decoration: none;
+                    margin: 5px 0;
+                 } 
+.email-contato a:hover { text-decoration: underline;
+                     } 
+.link-projetos a:hover { text-decoration: underline;
+                     } 
